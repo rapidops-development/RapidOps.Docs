@@ -3,7 +3,7 @@
 // put your custom CSS here!
 
 // Fix search button text visibility in dark mode
-// In dark mode, --gray is #39393b (near-black), making it illegible against the dark background
+// --gray in dark mode is #39393b (near-black), illegible against the dark background
 [saved-theme="dark"] {
   .search > .search-button > p {
     color: var(--darkgray);
