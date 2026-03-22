@@ -41,6 +41,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
+    Component.DesktopOnly(
+      Component.SiteLink({ label: "rapidops.co.uk", href: "https://www.rapidops.co.uk" }),
+    ),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -64,5 +67,9 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(
+      Component.SiteLink({ label: "rapidops.co.uk", href: "https://www.rapidops.co.uk" }),
+    ),
+  ],
 }

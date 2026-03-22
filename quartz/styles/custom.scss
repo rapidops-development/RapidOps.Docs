@@ -1,3 +1,22 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Fix search button text visibility in dark mode
+// --gray in dark mode is #39393b (near-black), illegible against the dark background
+[saved-theme="dark"] {
+  .search > .search-button > p {
+    color: var(--darkgray);
+  }
+}
+
+// Increase main content width for better screen utilisation
+.page {
+  max-width: 1800px;
+
+  & > #quartz-body {
+    @media all and (min-width: 1200px) {
+      grid-template-columns: 280px auto 280px;
+    }
+  }
+}
