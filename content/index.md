@@ -20,4 +20,4 @@ Welcome to the RapidOps documentation. This is where you will find [[Explanation
 ## Attributions and Thanks
 This site is managed using [Obsidian](https://obsidian.md/) and built using [Quartz](https://quartz.jzhao.xyz/). Thank you to both projects for creating an awesome framework for good documentation.
 
-The structure and style of this documentation is based on the brilliant framework contributed by Divio, you can read more about it [here](https://docs.divio.com/documentation-system/)).
+The structure and style of this documentation is based on the brilliant framework contributed by Divio, you can read more about it [here](https://docs.divio.com/documentation-system/).
