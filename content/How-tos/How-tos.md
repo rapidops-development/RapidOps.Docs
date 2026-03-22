@@ -1,0 +1,1 @@
+How-tos are a set of directions for solving a real-world problem. Here you will find methodologies for implementing the RapidOps platform in operational factories to improve #quality, #process, #transparency, and many more key areas for production.
