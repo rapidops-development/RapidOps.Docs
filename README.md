@@ -1,17 +1,26 @@
-# Quartz v4
+# RapidOps Docs
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+This is the documentation website for RapidOps. This is the one stop area for all tutorials, how-tos, reference and explanations on the RapidOps platform.
+Information is organised as an Obsidian knowledge base so that related items can be easily found. The Quartz project is used to convert the Obsidian document store into
+a static webpage for hosting in Github pages.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Adding Content
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+All content in the RapidOps Docs website is compiled from markdown and stored in the "content" folder. We recommend installing the Obsidian desktop client to manage the content of the website,
+this can be downloaded from here: https://obsidian.md/download
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Quartz supports all standard markdown syntax, as well as GitHub markdown and Obsidian markdown extensions.
 
-## Sponsors
+Before adding content, please consult this guide to writing documentation from Divio: https://docs.divio.com/documentation-system/. The RapidOps Docs website uses the structure outlined by Divio to target content at different user levels. Ensure you know the purpose of the content you are writing, and who you are writing it for.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Be sure to make good use of the wikilinks capabilities of Obsidian to link your new content to the existing content of the Docs website.
+
+## Running the Website Locally
+
+It can be useful to run the website locally to see how changes will be reflected in the end webpage. To do this, simply execute the following command:
+
+```bash
+npm run serve
+```
+
+This will host the website on your development machine at: https://localhost:30000
