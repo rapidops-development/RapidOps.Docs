@@ -205,6 +205,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         flexDirection: "column",
         height: "100%",
         width: "100%",
+        boxSizing: "border-box",
         backgroundColor: cfg.theme.colors[colorScheme].light,
         padding: "2.5rem",
         fontFamily: bodyFont,
